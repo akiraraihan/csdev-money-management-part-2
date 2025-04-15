@@ -19,5 +19,4 @@ cmds = [
     "php artisan cache:table",
     "php artisan session:table",
     "php artisan queue:table",
-    "php artisan migrate --force",
 ]
