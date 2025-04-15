@@ -15,5 +15,9 @@ cmds = [
     "npm run build",
     "composer install",
     "php artisan storage:link",
-    "php artisan migrate:fresh --seed"
+    "php artisan migrate --force",
+    "php artisan cache:table",
+    "php artisan session:table",
+    "php artisan queue:table",
+    "php artisan migrate --force",
 ]
